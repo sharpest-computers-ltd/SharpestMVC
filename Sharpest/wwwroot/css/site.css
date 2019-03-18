@@ -1,0 +1,185 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/*Start My Custom Nav*/
+
+.navbar-custom {
+    background-image: linear-gradient(to right,#ecdef9,#440f70 );
+    /*#d0a1fc#7c31a1*/
+    border-color: #e7e7e7;
+    min-height: 90px
+}
+
+.navbar-collapse-custom {
+    /*background-image: linear-gradient( #7722d7,#ffffff);*/
+    float: right;
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-collapse-custom.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    padding-top: 40px;
+    overflow: visible !important;
+}
+}
+
+.navbar-custom .navbar-brand {
+    color: #ec971f;
+}
+
+    .navbar-custom .navbar-brand:hover,
+    .navbar-custom .navbar-brand:focus {
+        color: #5e5e5e;
+        background-color: transparent;
+    }
+
+.navbar-custom .navbar-text {
+    color: #240b37
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #ffd800;
+}
+
+    .navbar-custom .navbar-nav > li > a:hover {
+        color: #ff6a00;
+        background-color: transparent;
+    },
+    .navbar-custom .navbar-nav > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover {
+    color: #ff6a00;
+    background-color: transparent;
+}
+    ,
+    .navbar-custom .navbar-nav > .active > a:focus {
+        color: #ff6a00;
+        background-color: transparent;
+    }
+
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-toggle {
+    border-color: #ddd;
+}
+
+    .navbar-custom .navbar-toggle:hover,
+    .navbar-custom .navbar-toggle:focus {
+        background-color: #fff;
+    }
+
+    .navbar-custom .navbar-toggle .icon-bar {
+        background-color: #ccc/*#0a31b1;*/
+    }
+
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+    border-color: #240b37;
+}
+
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #240b37;
+}
+
+@media (max-width: 767px) {
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+
+        .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+        .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #333;
+            background-color: transparent;
+        }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #0a31b1;
+    }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+.navbar-custom .navbar-link {
+    color: #777;
+}
+
+    .navbar-custom .navbar-link:hover {
+        color: #333;
+    }
+
+.navbar-custom .btn-link {
+    color: #777;
+}
+
+    .navbar-custom .btn-link:hover,
+    .navbar-custom .btn-link:focus {
+        color: #333;
+    }
+
+    .navbar-custom .btn-link[disabled]:hover,
+    fieldset[disabled] .navbar-custom .btn-link:hover,
+    .navbar-custom .btn-link[disabled]:focus,
+    fieldset[disabled] .navbar-custom .btn-link:focus {
+        color: #ccc;
+    }
+/*End My Custom Navbar*/
